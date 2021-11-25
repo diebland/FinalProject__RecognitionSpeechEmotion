@@ -1,10 +1,13 @@
 # Voice Emotion Recognition
 
+
+![voiceEmotion](/Users\diebl\lab\FinalProject__RecognitionSpeechEmotion/image.jpeg)  
+
  
 
 ## Project Overview
 
-Voice analysis technlogies are quickly becoming an ever-present part of everyday life, either in our personal devices or when we are in relation with customer service.
+Voice analysis technologies are quickly becoming an ever-present part of everyday life, either in our personal devices or when we are in relation with customer service.
 
 Voice-activated menu systems have the ability to analyze the voice and emotions of the customers as they describe their issue and allow call centers to be as responsive as possible. 
 
@@ -52,13 +55,15 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)" by Liv
 2)	See **Modeling.ipynb**:
 
 - First Step :
-Conducted feature extraction (log-mel spectrograms) resulting into dataframe (see **.csv**) and built Model with MLP Classifier. Obtained an accuracy score of % with the model having difficulty classifying citer les émotions
+Conducted feature extraction (log-mel spectrograms) resulting into dataframe (see **.csv**) and built Model with MLP Classifier. Obtained an accuracy score of % with the model having difficulty classifying citer les émotions.
+The model has been improved by applying standardization to the data. Accuracy score of
 
 - Second Step
-Conducted extraction of different features, melspectogram, chroma and MFCCS resulting into dataframe (see **.csv**) and built Model with MLP Classifier. Obtained an accuracy score of % with the model having difficulty classifying the neutral emotion
+Conducted extraction of different features, melspectogram, chroma and MFCCS resulting into dataframe (see **.csv**) and built Model with MLP Classifier. Obtained an accuracy score of % with the model having more difficulty classifying the neutral emotion.
+Again, I have applied standardization to the data to increase the model performances.
 
 - Third Step
-Reduced the dataframe to seven emotions and run the MPL Classifier Model. Accuracy score improves : %. 
+Reduced the dataframe to seven emotions and run the MPL Classifier Model. Accuracy score : %. The scores of the model are not improved 
 
 
 <p align="center">
@@ -90,5 +95,9 @@ List of libraries (with a link to the documentation):
 
 - [Seaborn](http://https://seaborn.pydata.org/"Title")   
 
-- [Scikit-learn](http://scikit-learn.org/stable/index.html/"Title")  
+- [Scikit-learn](http://scikit-learn.org/stable/index.html/"Title") 
+
+## Ressources
+
+List of very helpful articles
 
