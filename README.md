@@ -43,7 +43,7 @@ Visualizing the statement "Kids are talking by the door" said by a neutral femal
 
 Visualizing mel spectogram of happy, sad, angry and surprise
 <p align="center">
-  <img width="460" height="300" src="https://github.com/diebland/FinalProject__RecognitionSpeechEmotion/blob/main/images/image2.png">
+  <img width="460" height="300" src="https://github.com/diebland/FinalProject__RecognitionSpeechEmotion/blob/main/images/Image2.png">
 </p>
 
 
