@@ -1,11 +1,8 @@
 # Voice Emotion Recognition
 
-
 <p align="center">
   <img width="460" height="300" src="https://github.com/diebland/FinalProject__RecognitionSpeechEmotion/blob/main/images/image.jpeg">
 </p>
-
- 
 
 ## Project Overview
 
@@ -31,10 +28,6 @@ The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)" by Liv
 1)	See **EDA.ipynb**: Loaded audio files and created visualizations of audio features
 
 - *Signal of the audio* : An audio signal is a variation of air pressure in a certain quantity over time.
-<p align="center">
-  <img width="460" height="300" src="https://github.com/diebland/FinalProject__RecognitionSpeechEmotion/blob/main/images/signal.png">
-</p>
-
 
 - *Mel Spectogram* : A spectogramm is a way to visually represent a signal’s loudness, or amplitude, as it varies over time at different frequencies. A spectogramm is obtained by computing Fast-Fourier-Transformation on overlapping windowed segments of the signal.
 A *mel spectrogram* is a spectrogram where the frequencies are converted to the mel scale (y-axis). The colors represents the amplitude of the signal.
@@ -43,14 +36,20 @@ A *mel spectrogram* is a spectrogram where the frequencies are converted to the 
 
 - *Chroma*  :  Chroma is a 12-element vector that measures energy from the sound pitch usually in deciBels (dB).
 
+Visualizing the statement "Kids are talking by the door" said by a neutral female voice
 <p align="center">
   <img width="460" height="300" src="https://github.com/diebland/FinalProject__RecognitionSpeechEmotion/blob/main/images/image1.png">
+</p>
+
+Visualizing mel spectogram of happy, sad, angry and surprise
+<p align="center">
+  <img width="460" height="300" src="https://github.com/diebland/FinalProject__RecognitionSpeechEmotion/blob/main/images/image2.png">
 </p>
 
 
 2)	See **Modeling.ipynb**:
 
-- *First Step* :
+- *First Step* :  
 Conducted feature extraction (log-mel spectrograms) resulting into dataframe (see **mel_24_8.csv**) and built Model with MLP Classifier. Obtained an accuracy score of 13.3% with the model having contrasting results : some emotions are well predicted while some others not all. 
 
 The model has been improved by applying standardization to the data. Accuracy score of 45.5%. Good improvment of our model, though some errors are made i.e angry or fear predicted as happy. 
@@ -63,7 +62,7 @@ The model has been improved by applying standardization to the data. Accuracy sc
   <img width="460" height="300" src="https://github.com/diebland/FinalProject__RecognitionSpeechEmotion/blob/main/images/Sample_results_2.png">
 </p>
 
-- *Second Step*
+- *Second Step*:  
 Conducted extraction of different features, melspectogram, chroma and MFCCS resulting into dataframe (see **mel_chroma_mfccs_24_8.csv**) and built Model with MLP Classifier. Obtained an accuracy score of % with the model having more difficulty classifying the neutral emotion.
 Again, I have applied standardization to the data to increase the model performances.
 
@@ -73,7 +72,7 @@ Accuracy Score of 73.3%. Good quality of predictions. However fear and disgust s
   <img width="460" height="300" src="https://github.com/diebland/FinalProject__RecognitionSpeechEmotion/blob/main/images/Classification_report_2.png">
 </p>
 
-- *Third Step*
+- *Third Step*:  
 Reduced the dataframe to seven emotions (see **mel_chroma_mfccs_24_7.csv**) and run the MPL Classifier Model. Accuracy score : 73.2% %. The scores of the model have not been improved
 
 The scores of our model have not improved but the prediction of the emotions seems to be more balanced.
@@ -88,6 +87,7 @@ The scores of our model have not improved but the prediction of the emotions see
 
 
 3)	See **Images** for all .png and **Audio** for sample audio files
+
 
 ## Conclusions  
 
@@ -113,9 +113,9 @@ List of libraries (with a link to the documentation):
 - [Scikit-learn](http://scikit-learn.org/stable/index.html/"Title") 
 
 
-## Ressources 
+## Ressources  
 
-- [Visualizing Sounds Using Librosa Machine Learning Library! by Priya Kalyanakrishnan](http://https://Visualizing Sounds Using Librosa Machine Learning Library!//"Title")
+- [Visualizing Sounds Using Librosa Machine Learning Library! by Priya Kalyanakrishnan](http://https://www.analyticsvidhya.com/blog/2021/06/visualizing-sounds-librosa///"Title")
 
 - [Understanding the mel spectogram by Leland Roberts](http://https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53//"Title")
 
