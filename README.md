@@ -18,7 +18,7 @@ Understanding emotions may help us to better communicate our needs, our feelings
 
 
 ## Dataset
-The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)" by Livingstone & Russo is licensed under CC BY-NA-SC 4.0 contains 1440 audio files from 24 Actors vocalizing two lexically-matched statements. Emotions include angry, happy, sad, fearful, calm, neutral, disgust, and surprised. [Click for dataset]( https://zenodo.org/record/1188976)
+The Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)" by Livingstone & Russo, licensed under CC BY-NA-SC 4.0, contains 1440 audio files from 24 Actors vocalizing two lexically-matched statements. Emotions include angry, happy, sad, fearful, calm, neutral, disgust, and surprised. [Click for dataset]( https://zenodo.org/record/1188976)
 
 
 
